@@ -55,7 +55,7 @@
   "playUrl": "https://www.ququmc.com/play/{playUrl}.html",
   "playUa": "",
 	"searchUrl": "https://www.ququmc.com/search?wd={wd}",
-	"scVodNode": "//div[@class='thumb']/a",
+	"scVodNode": "//li[contains(@class, 'active clearfix')]/div[contains(@class, 'thumb')]/a[contains(@class, 'v-thumb stui-vodlist__thumb lazyload')]",
 	"scVodName": "/@title",
 	"scVodId": "/@href",
 	"scVodIdR": "/show/(\\w+).html",
